@@ -723,12 +723,12 @@ th {
 
 #wrap {
   position: relative;
-  background-image: url("../img/shipwreck.jpeg");
+  background-image: url("../img/mountains.jpg");
   background-position: left top;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   height: 100%;
 }
@@ -740,6 +740,7 @@ th {
 #main #content-wrap {
   padding-top: 65px;
   padding-bottom: 50px;
+  background: #f4f4f4;
 }
 
 .no-margins #main #content-wrap,
@@ -1459,6 +1460,9 @@ table tr td:last-child {
   margin-top: 80px;
   padding-bottom: 100px;
   text-align: center;
+  max-width: 1353px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pic-section {
@@ -1467,7 +1471,7 @@ table tr td:last-child {
 
 .pic-section > img {
   display: inline-block;
-  width: 34%;
+  width: 31%;
 }
 
 .pic-section > div {
@@ -6071,9 +6075,9 @@ body.vertical-header-style.vh-closed #site-header.vertical-header #site-navigati
   margin-right: auto;
   font-size: 60px;
   text-align: center;
-  padding-top: 20%;
+  padding-top: 16%;
   text-transform: uppercase;
-  height: 80%;
+  height: 76%;
 }
 .page-header .container {
   position: relative;

@@ -5,12 +5,12 @@
 
 #wrap {
 	position: relative;
-  background-image: url('../img/shipwreck.jpeg');
+  background-image: url('../img/mountains.jpg');
   background-position: left top;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.4);
   background-blend-mode: multiply;
   height: 100%;
 }
@@ -22,6 +22,7 @@
     #content-wrap {
 		padding-top: 65px;
 		padding-bottom: 50px;
+		background: rgb(244,244,244);
 	}
 }
 
