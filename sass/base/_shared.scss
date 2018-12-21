@@ -276,11 +276,12 @@ table tr td:last-child {
 
 .pic-section > div {
   display: inline-block;
-  width: 40%;
-  font-size: 20px;
+  width: 36%;
+  font-family: Garmond, serif;
+  font-size: 16px;
   vertical-align: top;
-  line-height: 30px;
-  margin-left: 20px;
+  margin: 0px 63px;
+  font-style: italic;
 }
 
 .pic-label {
@@ -288,22 +289,27 @@ table tr td:last-child {
   font-size: 13px;
   font-family: Helvetica;
   font-weight: 600;
+  font-style: normal;
   margin-bottom: 20px;
 }
 
 .pic-button {
   border: solid 2px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding: 13px 28px;
   border-radius: 25px;
   background: #4bd;
+  letter-spacing: 1px;
   color: white;
   display: inline-block;
   margin-top: 20px;
   font-weight: 600;
   font-family: Helvetica;
   font-size: 13px;
+  font-style: normal;
   cursor: pointer;
+  transition: .1s;
+}
+
+.pic-button:hover {
+  background: #6cf
 }
