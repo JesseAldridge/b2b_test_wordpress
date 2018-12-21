@@ -8653,6 +8653,9 @@ a.sidr-class-toggle-sidr-close i {
   body.default-breakpoint #site-logo.has-responsive-logo .responsive-logo-link {
     display: block;
   }
+  body.default-breakpoint #site-logo .site-logo-text {
+    font-size: 14px;
+  }
   body.default-breakpoint .is-sticky #site-logo.has-responsive-logo .sticky-logo-link {
     display: block;
   }
