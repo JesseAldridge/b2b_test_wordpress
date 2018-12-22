@@ -1068,7 +1068,7 @@ body.separate-blog.separate-layout .blog-entry.grid-entry .thumbnail {
   /* container */
   .container,
 body.content-full-screen .elementor-section-wrap > .elementor-section.elementor-section-boxed > .elementor-container {
-    max-width: 90%;
+    padding: 0px 28px;
   }
 
   /* full width content and sidebar */
@@ -1101,10 +1101,6 @@ body.content-full-screen .elementor-section-wrap > .elementor-section.elementor-
 
   body.has-composer.has-sidebar #primary {
     margin-bottom: 40px;
-  }
-
-  #main #content-wrap.container {
-    width: auto !important;
   }
 
   /* Both sidebars layout */
@@ -1467,6 +1463,11 @@ table tr td:last-child {
 
 .pic-section {
   margin-top: 100px;
+  display: flex;
+}
+
+.pic-section:nth-child(even) {
+  flex-direction: row-reverse;
 }
 
 .pic-section > img {
@@ -1608,7 +1609,7 @@ p {
   font-family: Helvetica;
   font-size: 17px;
   font-weight: 200;
-  width: 650px;
+  max-width: 650px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -4275,7 +4276,6 @@ body.vertical-header-style.vh-closed #site-header.vertical-header #site-navigati
 }
 .oceanwp-mobile-menu-icon a {
   font-size: 13px;
-  line-height: 74px;
   color: #fff;
   padding-left: 15px;
   letter-spacing: 0.6px;
@@ -8655,6 +8655,16 @@ a.sidr-class-toggle-sidr-close i {
   }
   body.default-breakpoint #site-logo .site-logo-text {
     font-size: 14px;
+  }
+  body.default-breakpoint .page-header-title {
+    font-size: 39px;
+  }
+  body.default-breakpoint .pic-section {
+    display: block;
+  }
+  body.default-breakpoint .pic-section > div {
+    width: 100%;
+    margin: 0px 0px;
   }
   body.default-breakpoint .is-sticky #site-logo.has-responsive-logo .sticky-logo-link {
     display: block;

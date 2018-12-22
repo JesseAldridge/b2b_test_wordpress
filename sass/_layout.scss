@@ -463,7 +463,7 @@ body.separate-blog.separate-layout {
 	/* container */
 	.container,
 	body.content-full-screen .elementor-section-wrap > .elementor-section.elementor-section-boxed > .elementor-container {
-		max-width: 90%;
+		padding: 0px 28px;
 	}
 
 	/* full width content and sidebar */
@@ -498,9 +498,9 @@ body.separate-blog.separate-layout {
 		margin-bottom: 40px;
 	}
 
-	#main #content-wrap.container {
-		width: auto !important;
-	}
+	// #main #content-wrap.container {
+	// 	width: auto !important;
+	// }
 
 	/* Both sidebars layout */
 	.content-both-sidebars {

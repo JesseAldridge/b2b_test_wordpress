@@ -1,4 +1,4 @@
-/*------------------------------------*
+ /*------------------------------------*
 	All Devices under 960px
 *------------------------------------*/
 @media only screen and (max-width: 1000px) {
@@ -15,9 +15,26 @@
 			}
 		}
 
+		// -- my changes
+
 		#site-logo .site-logo-text {
 	    font-size: 14px;
 	  }
+
+		.page-header-title {
+			font-size: 39px;
+		}
+
+		.pic-section {
+			display: block;
+		}
+
+		.pic-section > div {
+		  width: 100%;
+		  margin: 0px 0px;
+		}
+
+	  // -- end my changes
 
 		.is-sticky #site-logo.has-responsive-logo .sticky-logo-link {
 			display: block;

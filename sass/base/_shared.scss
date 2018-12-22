@@ -270,6 +270,11 @@ table tr td:last-child {
 
 .pic-section {
   margin-top: 100px;
+  display: flex;
+}
+
+.pic-section:nth-child(even) {
+  flex-direction: row-reverse;
 }
 
 .pic-section > img {
